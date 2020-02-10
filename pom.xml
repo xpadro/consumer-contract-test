@@ -37,6 +37,7 @@
 			</exclusions>
 		</dependency>
 
+		<!-- In the integration tests, gets a running WireMock instance or messaging route that simulates the actual service -->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-contract-stub-runner</artifactId>
